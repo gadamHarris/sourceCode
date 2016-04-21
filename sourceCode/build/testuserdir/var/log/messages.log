@@ -1,0 +1,171 @@
+-------------------------------------------------------------------------------
+>Log Session: Thursday, April 21, 2016 9:49:18 AM EDT
+>System Info: 
+  Product Version         = NetBeans Platform 8.1 (Build 201510222201)
+  Operating System        = Linux version 2.6.32-358.el6.i686 running on i386
+  Java; VM; Vendor        = 1.8.0_91; Java HotSpot(TM) Server VM 25.91-b14; Oracle Corporation
+  Runtime                 = Java(TM) SE Runtime Environment 1.8.0_91-b14
+  Java Home               = /usr/local/jdk1.8.0_91/jre
+  System Locale; Encoding = en_US (modemcontroller); UTF-8
+  Home Directory          = /home/user1
+  Current Directory       = /home/user1/NetBeansProjects/ModemController/ModemController
+  User Directory          = /home/user1/NetBeansProjects/ModemController/ModemController/build/testuserdir
+  Cache Directory         = /home/user1/NetBeansProjects/ModemController/ModemController/build/testuserdir/var/cache
+  Installation            = /home/user1/NetBeansProjects/ModemController/ModemController/build/cluster
+                            /usr/local/netbeans-8.1/platform
+                            /usr/local/netbeans-8.1/platform
+  Boot & Ext. Classpath   = /usr/local/jdk1.8.0_91/jre/lib/resources.jar:/usr/local/jdk1.8.0_91/jre/lib/rt.jar:/usr/local/jdk1.8.0_91/jre/lib/sunrsasign.jar:/usr/local/jdk1.8.0_91/jre/lib/jsse.jar:/usr/local/jdk1.8.0_91/jre/lib/jce.jar:/usr/local/jdk1.8.0_91/jre/lib/charsets.jar:/usr/local/jdk1.8.0_91/jre/lib/jfr.jar:/usr/local/jdk1.8.0_91/jre/classes:/usr/local/jdk1.8.0_91/jre/lib/ext/zipfs.jar:/usr/local/jdk1.8.0_91/jre/lib/ext/dnsns.jar:/usr/local/jdk1.8.0_91/jre/lib/ext/sunjce_provider.jar:/usr/local/jdk1.8.0_91/jre/lib/ext/jfxrt.jar:/usr/local/jdk1.8.0_91/jre/lib/ext/sunec.jar:/usr/local/jdk1.8.0_91/jre/lib/ext/sunpkcs11.jar:/usr/local/jdk1.8.0_91/jre/lib/ext/localedata.jar:/usr/local/jdk1.8.0_91/jre/lib/ext/nashorn.jar:/usr/local/jdk1.8.0_91/jre/lib/ext/cldrdata.jar:/usr/local/jdk1.8.0_91/jre/lib/ext/jaccess.jar
+  Application Classpath   = /usr/local/netbeans-8.1/platform/lib/boot.jar:/usr/local/netbeans-8.1/platform/lib/org-openide-modules.jar:/usr/local/netbeans-8.1/platform/lib/org-openide-util.jar:/usr/local/netbeans-8.1/platform/lib/org-openide-util-lookup.jar:/usr/local/netbeans-8.1/platform/lib/org-openide-util-ui.jar:/usr/local/netbeans-8.1/platform/lib/locale/boot_ja.jar:/usr/local/netbeans-8.1/platform/lib/locale/boot_pt_BR.jar:/usr/local/netbeans-8.1/platform/lib/locale/boot_ru.jar:/usr/local/netbeans-8.1/platform/lib/locale/boot_zh_CN.jar:/usr/local/netbeans-8.1/platform/lib/locale/org-openide-modules_ja.jar:/usr/local/netbeans-8.1/platform/lib/locale/org-openide-modules_pt_BR.jar:/usr/local/netbeans-8.1/platform/lib/locale/org-openide-modules_ru.jar:/usr/local/netbeans-8.1/platform/lib/locale/org-openide-modules_zh_CN.jar:/usr/local/netbeans-8.1/platform/lib/locale/org-openide-util_ja.jar:/usr/local/netbeans-8.1/platform/lib/locale/org-openide-util-lookup_ja.jar:/usr/local/netbeans-8.1/platform/lib/locale/org-openide-util-lookup_pt_BR.jar:/usr/local/netbeans-8.1/platform/lib/locale/org-openide-util-lookup_ru.jar:/usr/local/netbeans-8.1/platform/lib/locale/org-openide-util-lookup_zh_CN.jar:/usr/local/netbeans-8.1/platform/lib/locale/org-openide-util_pt_BR.jar:/usr/local/netbeans-8.1/platform/lib/locale/org-openide-util_ru.jar:/usr/local/netbeans-8.1/platform/lib/locale/org-openide-util-ui_ja.jar:/usr/local/netbeans-8.1/platform/lib/locale/org-openide-util-ui_pt_BR.jar:/usr/local/netbeans-8.1/platform/lib/locale/org-openide-util-ui_ru.jar:/usr/local/netbeans-8.1/platform/lib/locale/org-openide-util-ui_zh_CN.jar:/usr/local/netbeans-8.1/platform/lib/locale/org-openide-util_zh_CN.jar:/usr/local/jdk1.8.0_91/lib/dt.jar:/usr/local/jdk1.8.0_91/lib/tools.jar
+  Startup Classpath       = /usr/local/netbeans-8.1/platform/core/org-openide-filesystems.jar:/usr/local/netbeans-8.1/platform/core/core-base.jar:/usr/local/netbeans-8.1/platform/core/org-openide-filesystems-compat8.jar:/usr/local/netbeans-8.1/platform/core/asm-all-5.0.1.jar:/usr/local/netbeans-8.1/platform/core/core.jar:/usr/local/netbeans-8.1/platform/core/org-netbeans-libs-asm.jar:/usr/local/netbeans-8.1/platform/core/locale/core-base_zh_CN.jar:/usr/local/netbeans-8.1/platform/core/locale/org-openide-filesystems-compat8_ja.jar:/usr/local/netbeans-8.1/platform/core/locale/org-openide-filesystems-compat8_ru.jar:/usr/local/netbeans-8.1/platform/core/locale/org-openide-filesystems-compat8_pt_BR.jar:/usr/local/netbeans-8.1/platform/core/locale/org-netbeans-libs-asm_ru.jar:/usr/local/netbeans-8.1/platform/core/locale/core_ja.jar:/usr/local/netbeans-8.1/platform/core/locale/core-base_ru.jar:/usr/local/netbeans-8.1/platform/core/locale/core_ru.jar:/usr/local/netbeans-8.1/platform/core/locale/core_pt_BR.jar:/usr/local/netbeans-8.1/platform/core/locale/org-netbeans-libs-asm_ja.jar:/usr/local/netbeans-8.1/platform/core/locale/org-netbeans-libs-asm_pt_BR.jar:/usr/local/netbeans-8.1/platform/core/locale/org-openide-filesystems_ru.jar:/usr/local/netbeans-8.1/platform/core/locale/org-netbeans-libs-asm_zh_CN.jar:/usr/local/netbeans-8.1/platform/core/locale/org-openide-filesystems_ja.jar:/usr/local/netbeans-8.1/platform/core/locale/core_zh_CN.jar:/usr/local/netbeans-8.1/platform/core/locale/org-openide-filesystems_zh_CN.jar:/usr/local/netbeans-8.1/platform/core/locale/org-openide-filesystems-compat8_zh_CN.jar:/usr/local/netbeans-8.1/platform/core/locale/core-base_pt_BR.jar:/usr/local/netbeans-8.1/platform/core/locale/org-openide-filesystems_pt_BR.jar:/usr/local/netbeans-8.1/platform/core/locale/core-base_ja.jar:/home/user1/NetBeansProjects/ModemController/ModemController/build/cluster/core/locale/core_modemcontroller.jar
+-------------------------------------------------------------------------------
+WARNING [org.netbeans.core.modules]: had to upgrade dependencies for module org.myOrg.myProject.ModemGUI: added = [module org.netbeans.api.templates > 1.0, module org.openide.util.ui > 9.3, module org.openide.filesystems.nb, module org.openide.filesystems.compat8] removed = []; details: [#243100: Separate desktop-independent utilities, Separation of desktop and cleanup, Templates API has been separated into its own module.]
+WARNING [org.netbeans.swing.plaf.Startup]: L&F Warning: Nimbus L&F is not supported L&F yet and system may exhibit various drawing problems. Please use for experimental purposes only.
+INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
+	org.openide.util.lookup [8.32.1 201510222201]
+	org.openide.util [9.5.1 201510222201]
+	org.openide.util.ui [9.4.1 201510222201]
+	org.openide.modules [7.47.1 201510222201]
+	org.netbeans.api.annotations.common/1 [1.26.1 201510222201]
+	org.openide.filesystems [9.8.1 201510222201]
+	org.openide.awt [7.65.1 201510222201]
+	org.netbeans.api.progress/1 [1.46.1 201510222201]
+	org.netbeans.api.progress.nb [1.46.1 201510222201]
+	org.openide.dialogs [7.41.1 201510222201]
+	org.openide.nodes [7.42.1 201510222201]
+	org.openide.windows [6.74.1 201510222201]
+	org.netbeans.modules.editor.mimelookup/1 [1.39.1 201510222201]
+	org.openide.text [6.66.1 201510222201]
+	org.netbeans.swing.tabcontrol [1.54.1 201510222201]
+	org.netbeans.swing.outline [1.32.1 201510222201]
+	org.openide.explorer [6.61.1 201510222201]
+	org.openide.actions [6.38.1 201510222201]
+	org.netbeans.modules.queries/1 [1.42.1 201510222201]
+	org.netbeans.api.templates [1.6.1 201510222201]
+	org.openide.filesystems.nb [9.7.1 201510222201]
+	org.openide.loaders [7.63.1 201510222201]
+	org.netbeans.api.intent [1.1.1 201510222201]
+	org.netbeans.api.io [1.2.1 201510222201]
+	org.openide.io [1.48.1 201510222201]
+	org.openide.filesystems.compat8 [9.7.1 201510222201]
+	org.netbeans.swing.plaf [1.40.1 201510222201]
+	org.netbeans.spi.quicksearch [1.26.1 201510222201]
+	org.netbeans.modules.templates/1 [1.6.1 201510222201]
+	org.netbeans.libs.asm [5.2.1 201510222201]
+	org.netbeans.bootstrap/1 [2.74.1 201510222201]
+	org.netbeans.core.startup.base [1.61.1.1 1 201510222201]
+	org.netbeans.core.startup/1 [1.61.1.1 201510222201]
+	org.netbeans.modules.settings/1 [1.48.1 201510222201]
+	org.netbeans.modules.sampler [1.13.1 201510222201]
+	org.netbeans.modules.progress.ui [1.32.1 201510222201]
+	org.netbeans.modules.print [7.25.1 201510222201]
+	org.netbeans.modules.keyring [1.23.1 201510222201]
+	org.netbeans.core/2 [3.49.1 201510222201]
+	org.netbeans.modules.options.api/1 [1.44.1 201510222201]
+	org.netbeans.modules.options.keymap [1.36.1 201510222201]
+	org.netbeans.modules.masterfs/2 [2.54.1.2 2 201510222201]
+	org.netbeans.modules.masterfs.ui [2.2.1.2 201510222201]
+	org.netbeans.modules.masterfs.nio2 [1.14.1 201510222201]
+	org.netbeans.libs.jna/1 [1.41.1 201510222201]
+	org.netbeans.modules.masterfs.linux [1.12.1 201510222201]
+	org.netbeans.modules.keyring.fallback [1.7.1 201510222201]
+	org.netbeans.modules.keyring.impl [1.23.1 201510222201]
+	org.netbeans.modules.editor.mimelookup.impl/1 [1.31.1 201510222201]
+	org.netbeans.libs.osgi [1.20.1 201510222201]
+	org.netbeans.libs.jna.platform/1 [1.10.1 201510222201]
+	org.netbeans.libs.felix [2.14.1 201510222201]
+	org.netbeans.core.windows/2 [2.80.1 201510222201]
+	org.netbeans.core.ui/1 [1.44.1 201510222201]
+	org.netbeans.core.output2/1 [1.40.1 201510222201]
+	org.netbeans.core.network [1.9.1 201510222201]
+	org.netbeans.core.netigso [1.30.1 201510222201]
+	org.netbeans.core.nativeaccess/1 [1.30.1 201510222201]
+	org.netbeans.core.multitabs/1 [1.11.1.1 1 201510222201]
+	org.netbeans.core.io.ui/1 [1.29.1 201510222201]
+	org.netbeans.brandingmodule [1.0 160421]
+	org.myOrg.myProject.ModemGUI [1.0 160421]
+INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy resolver: Gnome
+INFO [org.netbeans.core.network.proxy.gnome.GconfNetworkProxy]: GConf system proxy resolver: direct connection
+INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy reloading succeeded.
+INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy - mode: direct
+INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy: fell to default (correct if direct mode went before)
+INFO [org.netbeans.ui.metrics.laf]: USG_LOOK_AND_FEEL
+WARNING [org.openide.filesystems.Ordering]: Not all children in Windows2/Modes/output/ marked with the position attribute: [EventLogTopComponent.wstcref], but some are: [output.wstcref]
+INFO [org.netbeans.core.windows.persistence]: [PersistenceManager.getTopComponentForID] Problem when deserializing TopComponent for tcID:'EventLogTopComponent'. Reason: null
+Content: 
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.myOrg.myProject.ModemGUI.EventLogTopComponent"/>
+</settings>
+Class: class org.myOrg.myProject.ModemGUI.EventLogTopComponent
+Source: MultiFileObject@1dac478[Windows2Local/Components/EventLogTopComponent.settings]
+Content: 
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.myOrg.myProject.ModemGUI.EventLogTopComponent"/>
+</settings>
+Class: class org.myOrg.myProject.ModemGUI.EventLogTopComponent
+Source: MultiFileObject@1dac478[Windows2Local/Components/EventLogTopComponent.settings]
+Caused: java.lang.NullPointerException
+	at org.myOrg.myProject.ModemGUI.EventLogDisplay.initComponents(EventLogDisplay.java:42)
+	at org.myOrg.myProject.ModemGUI.EventLogDisplay.<init>(EventLogDisplay.java:18)
+	at org.myOrg.myProject.ModemGUI.EventLogTopComponent.<init>(EventLogTopComponent.java:38)
+Caused: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.netbeans.modules.settings.convertors.XMLSettingsSupport.newInstance(XMLSettingsSupport.java:100)
+	at org.netbeans.modules.settings.convertors.XMLSettingsSupport$SettingsRecognizer.instanceCreate(XMLSettingsSupport.java:628)
+Caused: java.io.IOException
+	at org.netbeans.modules.settings.convertors.XMLSettingsSupport$SettingsRecognizer.instanceCreate(XMLSettingsSupport.java:630)
+	at org.netbeans.modules.settings.convertors.SerialDataConvertor$SettingsInstance.instanceCreate(SerialDataConvertor.java:426)
+[catch] at org.netbeans.core.windows.persistence.PersistenceManager.getTopComponentPersistentForID(PersistenceManager.java:571)
+	at org.netbeans.core.windows.persistence.PersistenceManager.getTopComponentForID(PersistenceManager.java:681)
+	at org.netbeans.core.windows.PersistenceHandler.getTopComponentForID(PersistenceHandler.java:478)
+	at org.netbeans.core.windows.LazyLoader.loadNow(LazyLoader.java:158)
+	at org.netbeans.core.windows.LazyLoader.access$400(LazyLoader.java:62)
+	at org.netbeans.core.windows.LazyLoader$2.run(LazyLoader.java:129)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:159)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Content: 
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.myOrg.myProject.ModemGUI.EventLogTopComponent"/>
+</settings>
+ALL [null]: Class: class org.myOrg.myProject.ModemGUI.EventLogTopComponent
+ALL [null]: Source: MultiFileObject@1dac478[Windows2Local/Components/EventLogTopComponent.settings]
+Diagnostic information
+Input arguments:
+	-Djdk.home=/usr/local/jdk1.8.0_91
+	-Dnetbeans.running.environment=gnome
+	-Dnetbeans.dirs=/home/user1/NetBeansProjects/ModemController/ModemController/build/cluster:/usr/local/netbeans-8.1/platform
+	-Dnetbeans.home=/usr/local/netbeans-8.1/platform
+	-Dnetbeans.logger.console=true
+	-ea
+	-XX:+HeapDumpOnOutOfMemoryError
+	-XX:HeapDumpPath=/home/user1/NetBeansProjects/ModemController/ModemController/build/testuserdir/var/log/heapdump.hprof
+Compiler: HotSpot Tiered Compilers
+Heap memory usage: initial 64.0MB maximum 910.2MB
+Non heap memory usage: initial 2.2MB maximum -1b
+Garbage collector: PS Scavenge (Collections=4 Total time spent=0s)
+Garbage collector: PS MarkSweep (Collections=1 Total time spent=0s)
+Classes: loaded=4446 total loaded=4446 unloaded 0
+INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 8,179,113,984
+INFO [null]: Total physical memory 8,179,113,984
+WARNING [org.openide.filesystems.Ordering]: Not all children in Menu/Window/ marked with the position attribute: [org-myOrg-myProject-ModemGUI-EventLogTopComponent.shadow, org-myOrg-myProject-ModemGUI-FactoryUseOnlyTopComponent.shadow, org-myOrg-myProject-ModemGUI-ModemStatusTopComponent.shadow], but some are: [org-netbeans-core-io-ui-IOWindowAction.shadow, Web, Tools, ConfigureWindow, GroupsMenuAction.shadow]

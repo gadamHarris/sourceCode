@@ -1,0 +1,9 @@
+/usr/local/netbeans-8.1/platform=1461176153000
+cluster./home/user1/NetBeansProjects/ModemController/ModemController/build/cluster=1461246558000
+cluster./usr/local/netbeans-8.1/platform=1461176153000
+user=1461246558000
+crc=7
+locale=en_US
+branding=modemcontroller
+java.version=1.8.0_91
+java.vm.version=25.91-b14

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="org_myOrg_myProject_ModemGUI">
+                <file name="EventLog" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.myOrg.myProject.ModemGUI.EventLogTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.myOrg.myProject.ModemGUI//EventLog//EN"/>
+                </file>
+                <file name="FactoryUseOnlySettings" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.myOrg.myProject.ModemGUI.FactoryUseOnlyTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.myOrg.myProject.ModemGUI//FactoryUseOnlySettings//EN"/>
+                </file>
+                <file name="ModemStatus" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.myOrg.myProject.ModemGUI.ModemStatusTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.myOrg.myProject.ModemGUI//ModemStatus//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="org">
+                <folder name="myOrg">
+                    <folder name="myProject">
+                        <folder name="ModemGUI">
+                            <file name="EventLogTopComponent">
+                                <!--org.myOrg.myProject.ModemGUI.EventLogTopComponent-->
+                                <attr name="settings.providerPath" stringvalue="xml/lookups//org_myOrg_myProject_ModemGUI/EventLog.instance"/>
+                            </file>
+                            <file name="FactoryUseOnlyTopComponent">
+                                <!--org.myOrg.myProject.ModemGUI.FactoryUseOnlyTopComponent-->
+                                <attr name="settings.providerPath" stringvalue="xml/lookups//org_myOrg_myProject_ModemGUI/FactoryUseOnlySettings.instance"/>
+                            </file>
+                            <file name="ModemStatusTopComponent">
+                                <!--org.myOrg.myProject.ModemGUI.ModemStatusTopComponent-->
+                                <attr name="settings.providerPath" stringvalue="xml/lookups//org_myOrg_myProject_ModemGUI/ModemStatus.instance"/>
+                            </file>
+                        </folder>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="org_myOrg_myProject_ModemGUI">
+                <file name="EventLog.instance">
+                    <!--org.myOrg.myProject.ModemGUI.EventLogTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.myOrg.myProject.ModemGUI.EventLogTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.myOrg.myProject.ModemGUI.EventLogTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="FactoryUseOnlySettings.instance">
+                    <!--org.myOrg.myProject.ModemGUI.FactoryUseOnlyTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.myOrg.myProject.ModemGUI.FactoryUseOnlyTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.myOrg.myProject.ModemGUI.FactoryUseOnlyTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="ModemStatus.instance">
+                    <!--org.myOrg.myProject.ModemGUI.ModemStatusTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.myOrg.myProject.ModemGUI.ModemStatusTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.myOrg.myProject.ModemGUI.ModemStatusTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="org-myOrg-myProject-ModemGUI-EventLogTopComponent.shadow">
+                <!--org.myOrg.myProject.ModemGUI.EventLogTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/org-myOrg-myProject-ModemGUI-EventLogTopComponent.instance"/>
+            </file>
+            <file name="org-myOrg-myProject-ModemGUI-FactoryUseOnlyTopComponent.shadow">
+                <!--org.myOrg.myProject.ModemGUI.FactoryUseOnlyTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/org-myOrg-myProject-ModemGUI-FactoryUseOnlyTopComponent.instance"/>
+            </file>
+            <file name="org-myOrg-myProject-ModemGUI-ModemStatusTopComponent.shadow">
+                <!--org.myOrg.myProject.ModemGUI.ModemStatusTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/org-myOrg-myProject-ModemGUI-ModemStatusTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="EventLogTopComponent.settings">
+                <!--org.myOrg.myProject.ModemGUI.EventLogTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.myOrg.myProject.ModemGUI.EventLogTopComponent"/>
+</settings>
+]]></file>
+            <file name="FactoryUseOnlyTopComponent.settings">
+                <!--org.myOrg.myProject.ModemGUI.FactoryUseOnlyTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.myOrg.myProject.ModemGUI.FactoryUseOnlyTopComponent"/>
+</settings>
+]]></file>
+            <file name="ModemStatusTopComponent.settings">
+                <!--org.myOrg.myProject.ModemGUI.ModemStatusTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.myOrg.myProject.ModemGUI.ModemStatusTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="output">
+                <file name="EventLogTopComponent.wstcref">
+                    <!--org.myOrg.myProject.ModemGUI.EventLogTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="EventLogTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+            <folder name="editor">
+                <file name="FactoryUseOnlyTopComponent.wstcref">
+                    <!--org.myOrg.myProject.ModemGUI.FactoryUseOnlyTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="FactoryUseOnlyTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+            <folder name="leftSlidingSide">
+                <file name="ModemStatusTopComponent.wstcref">
+                    <!--org.myOrg.myProject.ModemGUI.ModemStatusTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="ModemStatusTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="org-myOrg-myProject-ModemGUI-EventLogTopComponent.instance">
+                <!--org.myOrg.myProject.ModemGUI.EventLogTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="org.myOrg.myProject.ModemGUI.EventLogTopComponent"/>
+                <attr name="preferredID" stringvalue="EventLogTopComponent"/>
+                <attr
+                    bundlevalue="org.myOrg.myProject.ModemGUI.Bundle#CTL_EventLogAction" name="displayName"/>
+            </file>
+            <file name="org-myOrg-myProject-ModemGUI-ModemStatusTopComponent.instance">
+                <!--org.myOrg.myProject.ModemGUI.ModemStatusTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="org.myOrg.myProject.ModemGUI.ModemStatusTopComponent"/>
+                <attr name="preferredID" stringvalue="ModemStatusTopComponent"/>
+                <attr
+                    bundlevalue="org.myOrg.myProject.ModemGUI.Bundle#CTL_ModemStatusAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JPopupMenu" name="typeFilterPopupMenu">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value="" noResource="true"/>
+      </Properties>
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleParent" type="javax.accessibility.Accessible" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection component="EventLogTable" type="bean"/>
+        </Property>
+      </AccessibilityProperties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <MenuItem class="javax.swing.JCheckBoxMenuItem" name="AllTypeFilter">
+          <Properties>
+            <Property name="selected" type="boolean" value="true"/>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor" preCode="AllTypeFilter.setOpaque(true);">
+              <ResourceString bundle="org/harris/PAAWNS/ModemGUI/Bundle.properties" key="EventLogDisplay.AllTypeFilter.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="// add Action Listeners for Type Filters&#xa;        AllTypeFilter.addActionListener(new java.awt.event.ActionListener() {&#xa;            @Override&#xa;            public void actionPerformed(java.awt.event.ActionEvent evt) {&#xa;                if (AllTypeFilter.isSelected()) {&#xa;                    AllFilter = 1;&#xa;                    DebugFilter = 1;&#xa;                    InfoFilter = 1;&#xa;                    EventFilter = 1;&#xa;                    SelfTestFilter = 1;&#xa;                    WarningFilter = 1;&#xa;                    AlarmFilter = 1;&#xa;                    AlertFilter = 1;&#xa;                    FaultFilter = 1;&#xa;                }&#xa;                else {&#xa;                    AllFilter = 0;&#xa;                    DebugFilter = 0;&#xa;                    InfoFilter = 0;&#xa;                    EventFilter = 0;&#xa;                    SelfTestFilter = 0;&#xa;                    WarningFilter = 0;&#xa;                    AlarmFilter = 0;&#xa;                    AlertFilter = 0;&#xa;                    FaultFilter = 0;&#xa;                }&#xa;                updateTypeFilterPopup();&#xa;            }&#xa;        });"/>
+          </AuxValues>
+        </MenuItem>
+        <MenuItem class="javax.swing.JCheckBoxMenuItem" name="DebugTypeFilter">
+          <Properties>
+            <Property name="selected" type="boolean" value="true"/>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor" preCode="DebugTypeFilter.setOpaque(true);">
+              <ResourceString bundle="org/harris/PAAWNS/ModemGUI/Bundle.properties" key="EventLogDisplay.DebugTypeFilter.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="DebugTypeFilter.addActionListener(new java.awt.event.ActionListener() {&#xa;            @Override&#xa;            public void actionPerformed(java.awt.event.ActionEvent evt) {&#xa;                if (DebugTypeFilter.isSelected()) {&#xa;                    DebugFilter = 1;&#xa;                }&#xa;                else {&#xa;                    DebugFilter = 0;&#xa;                    AllFilter = 0;&#xa;                }&#xa;                updateTypeFilterPopup();&#xa;            }&#xa;        });"/>
+          </AuxValues>
+        </MenuItem>
+        <MenuItem class="javax.swing.JCheckBoxMenuItem" name="InfoTypeFilter">
+          <Properties>
+            <Property name="selected" type="boolean" value="true"/>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor" preCode="InfoTypeFilter.setOpaque(true);">
+              <ResourceString bundle="org/harris/PAAWNS/ModemGUI/Bundle.properties" key="EventLogDisplay.InfoTypeFilter.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="InfoTypeFilter.addActionListener(new java.awt.event.ActionListener() {&#xa;            @Override&#xa;            public void actionPerformed(java.awt.event.ActionEvent evt) {&#xa;                if (InfoTypeFilter.isSelected()) {&#xa;                    InfoFilter = 1;&#xa;                }&#xa;                else {&#xa;                    InfoFilter = 0;&#xa;                    AllFilter = 0;&#xa;                }&#xa;                updateTypeFilterPopup();&#xa;            }&#xa;        });"/>
+          </AuxValues>
+        </MenuItem>
+        <MenuItem class="javax.swing.JCheckBoxMenuItem" name="EventTypeFilter">
+          <Properties>
+            <Property name="selected" type="boolean" value="true"/>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor" preCode="EventTypeFilter.setOpaque(true);">
+              <ResourceString bundle="org/harris/PAAWNS/ModemGUI/Bundle.properties" key="EventLogDisplay.EventTypeFilter.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="EventTypeFilter.addActionListener(new java.awt.event.ActionListener() {&#xa;            @Override&#xa;            public void actionPerformed(java.awt.event.ActionEvent evt) {&#xa;                if (EventTypeFilter.isSelected()) {&#xa;                    EventFilter = 1;&#xa;                }&#xa;                else {&#xa;                    EventFilter = 0;&#xa;                    AllFilter = 0;&#xa;                }&#xa;                updateTypeFilterPopup();&#xa;            }&#xa;        });"/>
+          </AuxValues>
+        </MenuItem>
+        <MenuItem class="javax.swing.JCheckBoxMenuItem" name="SelfTestTypeFilter">
+          <Properties>
+            <Property name="selected" type="boolean" value="true"/>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor" preCode="SelfTestTypeFilter.setOpaque(true);">
+              <ResourceString bundle="org/harris/PAAWNS/ModemGUI/Bundle.properties" key="EventLogDisplay.SelfTestTypeFilter.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="SelfTestTypeFilter.addActionListener(new java.awt.event.ActionListener() {&#xa;            @Override&#xa;            public void actionPerformed(java.awt.event.ActionEvent evt) {&#xa;                if (SelfTestTypeFilter.isSelected()) {&#xa;                    SelfTestFilter = 1;&#xa;                }&#xa;                else {&#xa;                    SelfTestFilter = 0;&#xa;                    AllFilter = 0;&#xa;                }&#xa;                updateTypeFilterPopup();&#xa;            }&#xa;        });"/>
+          </AuxValues>
+        </MenuItem>
+        <MenuItem class="javax.swing.JCheckBoxMenuItem" name="WarningTypeFilter">
+          <Properties>
+            <Property name="selected" type="boolean" value="true"/>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor" preCode="WarningTypeFilter.setOpaque(true);">
+              <ResourceString bundle="org/harris/PAAWNS/ModemGUI/Bundle.properties" key="EventLogDisplay.WarningTypeFilter.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="WarningTypeFilter.addActionListener(new java.awt.event.ActionListener() {&#xa;            @Override&#xa;            public void actionPerformed(java.awt.event.ActionEvent evt) {&#xa;                if (WarningTypeFilter.isSelected()) {&#xa;                    WarningFilter = 1;&#xa;                }&#xa;                else {&#xa;                    WarningFilter = 0;&#xa;                    AllFilter = 0;&#xa;                }&#xa;                updateTypeFilterPopup();&#xa;            }&#xa;        });"/>
+          </AuxValues>
+        </MenuItem>
+        <MenuItem class="javax.swing.JCheckBoxMenuItem" name="AlarmTypeFilter">
+          <Properties>
+            <Property name="selected" type="boolean" value="true"/>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor" preCode="AlarmTypeFilter.setOpaque(true);">
+              <ResourceString bundle="org/harris/PAAWNS/ModemGUI/Bundle.properties" key="EventLogDisplay.AlarmTypeFilter.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="AlarmTypeFilter.addActionListener(new java.awt.event.ActionListener() {&#xa;            @Override&#xa;            public void actionPerformed(java.awt.event.ActionEvent evt) {&#xa;                if (AlarmTypeFilter.isSelected()) {&#xa;                    AlarmFilter = 1;&#xa;                }&#xa;                else {&#xa;                    AlarmFilter = 0;&#xa;                    AllFilter = 0;&#xa;                }&#xa;                updateTypeFilterPopup();&#xa;            }&#xa;        });"/>
+          </AuxValues>
+        </MenuItem>
+        <MenuItem class="javax.swing.JCheckBoxMenuItem" name="AlertTypeFilter">
+          <Properties>
+            <Property name="selected" type="boolean" value="true"/>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor" preCode="AlertTypeFilter.setOpaque(true);">
+              <ResourceString bundle="org/harris/PAAWNS/ModemGUI/Bundle.properties" key="EventLogDisplay.AlertTypeFilter.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="AlertTypeFilter.addActionListener(new java.awt.event.ActionListener() {&#xa;            @Override&#xa;            public void actionPerformed(java.awt.event.ActionEvent evt) {&#xa;                if (AlertTypeFilter.isSelected()) {&#xa;                    AlertFilter = 1;&#xa;                }&#xa;                else {&#xa;                    AlertFilter = 0;&#xa;                    AllFilter = 0;&#xa;                }&#xa;                updateTypeFilterPopup();&#xa;            }&#xa;        });"/>
+          </AuxValues>
+        </MenuItem>
+        <MenuItem class="javax.swing.JCheckBoxMenuItem" name="FaultTypeFilter">
+          <Properties>
+            <Property name="selected" type="boolean" value="true"/>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor" preCode="FaultTypeFilter.setOpaque(true);">
+              <ResourceString bundle="org/harris/PAAWNS/ModemGUI/Bundle.properties" key="EventLogDisplay.FaultTypeFilter.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="FaultTypeFilter.addActionListener(new java.awt.event.ActionListener() {&#xa;            @Override&#xa;            public void actionPerformed(java.awt.event.ActionEvent evt) {&#xa;                if (FaultTypeFilter.isSelected()) {&#xa;                    FaultFilter = 1;&#xa;                }&#xa;                else {&#xa;                    FaultFilter = 0;&#xa;                    AllFilter = 0;&#xa;                }&#xa;                updateTypeFilterPopup();&#xa;            }&#xa;        });"/>
+          </AuxValues>
+        </MenuItem>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPopupMenu" name="categoryFilterPopupMenu">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value="" noResource="true"/>
+      </Properties>
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleParent" type="javax.accessibility.Accessible" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection component="EventLogTable" type="bean"/>
+        </Property>
+      </AccessibilityProperties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <MenuItem class="javax.swing.JCheckBoxMenuItem" name="AllCategoryFilter">
+          <Properties>
+            <Property name="selected" type="boolean" value="true"/>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor" preCode="AllCategoryFilter.setOpaque(true);">
+              <ResourceString bundle="org/harris/PAAWNS/ModemGUI/Bundle.properties" key="EventLogDisplay.AllCategoryFilter.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="// add Action Listeners for Category Filters&#xa;        AllCategoryFilter.addActionListener(new java.awt.event.ActionListener() {&#xa;            @Override&#xa;            public void actionPerformed(java.awt.event.ActionEvent evt) {&#xa;                if (AllCategoryFilter.isSelected()) {&#xa;                    AllCFilter = 1;&#xa;                    ModFilter = 1;&#xa;                    DemodFilter = 1;&#xa;                    KGV90Filter = 1;&#xa;                    UCFilter = 1;&#xa;                    DCFilter = 1;&#xa;                    TimingFilter = 1;&#xa;                    ConfigFilter = 1;&#xa;                    AcqFilter = 1;&#xa;                    OtherFilter = 1;&#xa;                }&#xa;                else {&#xa;                    AllCFilter = 0;&#xa;                    ModFilter = 0;&#xa;                    DemodFilter = 0;&#xa;                    KGV90Filter = 0;&#xa;                    UCFilter = 0;&#xa;                    DCFilter = 0;&#xa;                    TimingFilter = 0;&#xa;                    ConfigFilter = 0;&#xa;                    AcqFilter = 0;&#xa;                    OtherFilter = 0;&#xa;                }&#xa;                updateCategoryFilterPopup();&#xa;            }&#xa;        });"/>
+          </AuxValues>
+        </MenuItem>
+        <MenuItem class="javax.swing.JCheckBoxMenuItem" name="ModCategoryFilter">
+          <Properties>
+            <Property name="selected" type="boolean" value="true"/>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor" preCode="ModCategoryFilter.setOpaque(true);">
+              <ResourceString bundle="org/harris/PAAWNS/ModemGUI/Bundle.properties" key="EventLogDisplay.ModCategoryFilter.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="ModCategoryFilter.addActionListener(new java.awt.event.ActionListener() {&#xa;            @Override&#xa;            public void actionPerformed(java.awt.event.ActionEvent evt) {&#xa;                if (ModCategoryFilter.isSelected()) {&#xa;                    ModFilter = 1;&#xa;                }&#xa;                else {&#xa;                    ModFilter = 0;&#xa;                    AllCFilter = 0;&#xa;                }&#xa;                updateCategoryFilterPopup();&#xa;            }&#xa;        });"/>
+          </AuxValues>
+        </MenuItem>
+        <MenuItem class="javax.swing.JCheckBoxMenuItem" name="DemodCategoryFilter">
+          <Properties>
+            <Property name="selected" type="boolean" value="true"/>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor" preCode="DemodCategoryFilter.setOpaque(true);">
+              <ResourceString bundle="org/harris/PAAWNS/ModemGUI/Bundle.properties" key="EventLogDisplay.DemodCategoryFilter.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="DemodCategoryFilter.addActionListener(new java.awt.event.ActionListener() {&#xa;            @Override&#xa;            public void actionPerformed(java.awt.event.ActionEvent evt) {&#xa;                if (DemodCategoryFilter.isSelected()) {&#xa;                    DemodFilter = 1;&#xa;                }&#xa;                else {&#xa;                    DemodFilter = 0;&#xa;                    AllCFilter = 0;&#xa;                }&#xa;                updateCategoryFilterPopup();&#xa;            }&#xa;        });"/>
+          </AuxValues>
+        </MenuItem>
+        <MenuItem class="javax.swing.JCheckBoxMenuItem" name="KGV90CategoryFilter">
+          <Properties>
+            <Property name="selected" type="boolean" value="true"/>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor" preCode="KGV90CategoryFilter.setOpaque(true);">
+              <ResourceString bundle="org/harris/PAAWNS/ModemGUI/Bundle.properties" key="EventLogDisplay.KGV90CategoryFilter.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="KGV90CategoryFilter.addActionListener(new java.awt.event.ActionListener() {&#xa;            @Override&#xa;            public void actionPerformed(java.awt.event.ActionEvent evt) {&#xa;                if (KGV90CategoryFilter.isSelected()) {&#xa;                    KGV90Filter = 1;&#xa;                }&#xa;                else {&#xa;                    KGV90Filter = 0;&#xa;                    AllCFilter = 0;&#xa;                }&#xa;                updateCategoryFilterPopup();&#xa;            }&#xa;        });"/>
+          </AuxValues>
+        </MenuItem>
+        <MenuItem class="javax.swing.JCheckBoxMenuItem" name="UCCategoryFilter">
+          <Properties>
+            <Property name="selected" type="boolean" value="true"/>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor" preCode="UCCategoryFilter.setOpaque(true);">
+              <ResourceString bundle="org/harris/PAAWNS/ModemGUI/Bundle.properties" key="EventLogDisplay.UCCategoryFilter.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="UCCategoryFilter.addActionListener(new java.awt.event.ActionListener() {&#xa;            @Override&#xa;            public void actionPerformed(java.awt.event.ActionEvent evt) {&#xa;                if (UCCategoryFilter.isSelected()) {&#xa;                    UCFilter = 1;&#xa;                }&#xa;                else {&#xa;                    UCFilter = 0;&#xa;                    AllCFilter = 0;&#xa;                }&#xa;                updateCategoryFilterPopup();&#xa;            }&#xa;        });"/>
+          </AuxValues>
+        </MenuItem>
+        <MenuItem class="javax.swing.JCheckBoxMenuItem" name="DCCategoryFilter">
+          <Properties>
+            <Property name="selected" type="boolean" value="true"/>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor" preCode="DCCategoryFilter.setOpaque(true);">
+              <ResourceString bundle="org/harris/PAAWNS/ModemGUI/Bundle.properties" key="EventLogDisplay.DCCategoryFilter.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="DCCategoryFilter.addActionListener(new java.awt.event.ActionListener() {&#xa;            @Override&#xa;            public void actionPerformed(java.awt.event.ActionEvent evt) {&#xa;                if (DCCategoryFilter.isSelected()) {&#xa;                    DCFilter = 1;&#xa;                }&#xa;                else {&#xa;                    DCFilter = 0;&#xa;                    AllCFilter = 0;&#xa;                }&#xa;                updateCategoryFilterPopup();&#xa;            }&#xa;        });"/>
+          </AuxValues>
+        </MenuItem>
+        <MenuItem class="javax.swing.JCheckBoxMenuItem" name="TimingCategoryFilter">
+          <Properties>
+            <Property name="selected" type="boolean" value="true"/>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor" preCode="TimingCategoryFilter.setOpaque(true);">
+              <ResourceString bundle="org/harris/PAAWNS/ModemGUI/Bundle.properties" key="EventLogDisplay.TimingCategoryFilter.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="TimingCategoryFilter.addActionListener(new java.awt.event.ActionListener() {&#xa;            @Override&#xa;            public void actionPerformed(java.awt.event.ActionEvent evt) {&#xa;                if (TimingCategoryFilter.isSelected()) {&#xa;                    TimingFilter = 1;&#xa;                }&#xa;                else {&#xa;                    TimingFilter = 0;&#xa;                    AllCFilter = 0;&#xa;                }&#xa;                updateCategoryFilterPopup();&#xa;            }&#xa;        });"/>
+          </AuxValues>
+        </MenuItem>
+        <MenuItem class="javax.swing.JCheckBoxMenuItem" name="ConfigCategoryFilter">
+          <Properties>
+            <Property name="selected" type="boolean" value="true"/>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor" preCode="ConfigCategoryFilter.setOpaque(true);">
+              <ResourceString bundle="org/harris/PAAWNS/ModemGUI/Bundle.properties" key="EventLogDisplay.ConfigCategoryFilter.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="ConfigCategoryFilter.addActionListener(new java.awt.event.ActionListener() {&#xa;            @Override&#xa;            public void actionPerformed(java.awt.event.ActionEvent evt) {&#xa;                if (ConfigCategoryFilter.isSelected()) {&#xa;                    ConfigFilter = 1;&#xa;                }&#xa;                else {&#xa;                    ConfigFilter = 0;&#xa;                    AllCFilter = 0;&#xa;                }&#xa;                updateCategoryFilterPopup();&#xa;            }&#xa;        });"/>
+          </AuxValues>
+        </MenuItem>
+        <MenuItem class="javax.swing.JCheckBoxMenuItem" name="AcqCategoryFilter">
+          <Properties>
+            <Property name="selected" type="boolean" value="true"/>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor" preCode="AcqCategoryFilter.setOpaque(true);">
+              <ResourceString bundle="org/harris/PAAWNS/ModemGUI/Bundle.properties" key="EventLogDisplay.AcqCategoryFilter.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="AcqCategoryFilter.addActionListener(new java.awt.event.ActionListener() {&#xa;            @Override&#xa;            public void actionPerformed(java.awt.event.ActionEvent evt) {&#xa;                if (AcqCategoryFilter.isSelected()) {&#xa;                    AcqFilter = 1;&#xa;                }&#xa;                else {&#xa;                    AcqFilter = 0;&#xa;                    AllCFilter = 0;&#xa;                }&#xa;                updateCategoryFilterPopup();&#xa;            }&#xa;        });"/>
+          </AuxValues>
+        </MenuItem>
+        <MenuItem class="javax.swing.JCheckBoxMenuItem" name="OtherCategoryFilter">
+          <Properties>
+            <Property name="selected" type="boolean" value="true"/>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor" preCode="OtherCategoryFilter.setOpaque(true);">
+              <ResourceString bundle="org/harris/PAAWNS/ModemGUI/Bundle.properties" key="EventLogDisplay.OtherCategoryFilter.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="OtherCategoryFilter.addActionListener(new java.awt.event.ActionListener() {&#xa;            @Override&#xa;            public void actionPerformed(java.awt.event.ActionEvent evt) {&#xa;                if (OtherCategoryFilter.isSelected()) {&#xa;                    OtherFilter = 1;&#xa;                }&#xa;                else {&#xa;                    OtherFilter = 0;&#xa;                    AllCFilter = 0;&#xa;                }&#xa;                updateCategoryFilterPopup();&#xa;            }&#xa;        });"/>
+          </AuxValues>
+        </MenuItem>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" alignment="1" pref="1100" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="264" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <Properties>
+        <Property name="verticalScrollBarPolicy" type="int" value="22"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="EventLogTable">
+          <Properties>
+            <Property name="autoCreateRowSorter" type="boolean" value="true"/>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="4" rowCount="1">
+                <Column editable="false" title="Date" type="java.lang.String"/>
+                <Column editable="false" title="Type" type="java.lang.String"/>
+                <Column editable="false" title="Category" type="java.lang.String"/>
+                <Column editable="false" title="Description" type="java.lang.String"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor" preCode="EventLogTable.setFillsViewportHeight (true);" postCode="// add Mouse Listener to Event Log Table&#xa;        EventLogTable.addMouseListener(new java.awt.event.MouseListener() {&#xa;            @Override&#xa;            public void mouseClicked(MouseEvent e) {&#xa;            int c = e.getButton();&#xa;            switch (c) {&#xa;                // left mouse button&#xa;                case MouseEvent.BUTTON1:&#xa;                    break;&#xa;                // middle mouse button&#xa;                case MouseEvent.BUTTON2:&#xa;                    break;&#xa;                // right mouse button&#xa;                case MouseEvent.BUTTON3:&#xa;                    JTable table = (JTable)e.getComponent();&#xa;                    int col = table.columnAtPoint(e.getPoint());&#xa;                    // if right-mouse on Type column&#xa;                    if (col == 1) {&#xa;                        updateTypeFilterPopup();&#xa;                    }&#xa;                    else {&#xa;                        // if right-mouse on Category column&#xa;                        if (col == 2) {&#xa;                            updateCategoryFilterPopup();&#xa;                        }&#xa;                    }&#xa;                    break;&#xa;                }&#xa;            }&#xa;            @Override&#xa;            public void mousePressed(MouseEvent e) {&#xa;            }&#xa;            @Override&#xa;            public void mouseReleased(MouseEvent e) {&#xa;            }&#xa;            @Override&#xa;            public void mouseEntered(MouseEvent e) {&#xa;            }&#xa;            @Override&#xa;            public void mouseExited(MouseEvent e) {&#xa;            }&#xa;        });">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+                    <ResourceString bundle="org/harris/PAAWNS/ModemGUI/Bundle.properties" key="EventLogDisplay.EventLogTable.columnModel.title0" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+                  </Title>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+                    <ResourceString bundle="org/harris/PAAWNS/ModemGUI/Bundle.properties" key="EventLogDisplay.EventLogTable.columnModel.title1" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+                  </Title>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+                    <ResourceString bundle="org/harris/PAAWNS/ModemGUI/Bundle.properties" key="EventLogDisplay.EventLogTable.columnModel.title2" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+                  </Title>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+                    <ResourceString bundle="org/harris/PAAWNS/ModemGUI/Bundle.properties" key="EventLogDisplay.EventLogTable.columnModel.title3" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+                  </Title>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="gridColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="showHorizontalLines" type="boolean" value="false"/>
+            <Property name="showVerticalLines" type="boolean" value="false"/>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

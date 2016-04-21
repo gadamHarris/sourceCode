@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.myOrg.myProject.ModemGUI">
+    <module_version install_time="1461246558283" last="true" origin="installer" specification_version="1.0">
+        <file crc="16066759" name="config/Modules/org-myOrg-myProject-ModemGUI.xml"/>
+        <file crc="722166968" name="modules/org-myOrg-myProject-ModemGUI.jar"/>
+    </module_version>
+</module>
